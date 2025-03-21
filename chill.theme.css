@@ -33,7 +33,7 @@
 @import url("https://warrayquipsome.github.io/Chillax/Addons/FriendGrid.css");
 @import url("https://warrayquipsome.github.io/Chillax/Addons/ColoredLinks.css");
 @import url("https://fonts.googleapis.com/css2?family=Barriecito&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
 
 
 
@@ -82,7 +82,7 @@
     --edited-message: " EDITED ✎ ";
     --font-name: Barriecito;
     --font-size: 13px;
-    --group-chat-font: "Poppins"; /* change this to change the group chat's default font */
+    --group-chat-font: "Caveat"; /* change this to change the group chat's default font */
 
 
     /*glow radial status*/ /*must end in px*/
