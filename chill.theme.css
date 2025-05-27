@@ -172,6 +172,15 @@
     --deprecated-panel-background: transparent;
 }
 
+/* Make pings appear white */
+.theme-dark .mention,
+.theme-light .mention,
+.mentioned {
+    background-color: rgba(255, 255, 255, 0.2) !important; /* light transparent white background */
+    color: #ffffff !important; /* pure white text */
+    border-radius: 4px;
+}
+
 /*!*friends grid banner colour*!*/
 /*.theme-dark {*/
 /*    --FG-cards-banner-background: transparent !important;*/
