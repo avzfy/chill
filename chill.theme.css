@@ -180,17 +180,21 @@
     color: #ffffff !important; /* pure white text */
     border-radius: 4px;
 }
-/* Make only the @mention text white */
+/* Make @mention text white */
 span.mention {
     color: #ffffff !important;
 }
 
-/* Make the entire pinged message text white */
-.mentioned,
-.mentioned * {
-    color: #ffffff !important;
+/* Set the background of pinged messages to white */
+.mentioned {
+    background-color: #ffffff !important;
 }
 
+/* Optional: Make all text in pinged messages dark so it's readable */
+.mentioned,
+.mentioned * {
+    color: #000000 !important; /* black text inside pinged message */
+}
 /*!*friends grid banner colour*!*/
 /*.theme-dark {*/
 /*    --FG-cards-banner-background: transparent !important;*/
