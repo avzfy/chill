@@ -80,9 +80,9 @@
 :root {
     --user-name: "King";
     --edited-message: " EDITED ✎ ";
-    --font-name: Barriecito;
+    --font-name: Poppins;
     --font-size: 13px;
-    --group-chat-font: "Caveat"; /* change this to change the group chat's default font */
+    --group-chat-font: "Cascadia Code"; /* change this to change the group chat's default font */
 
 
     /*glow radial status*/ /*must end in px*/
