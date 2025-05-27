@@ -180,6 +180,16 @@
     color: #ffffff !important; /* pure white text */
     border-radius: 4px;
 }
+/* Make only the @mention text white */
+span.mention {
+    color: #ffffff !important;
+}
+
+/* Make the entire pinged message text white */
+.mentioned,
+.mentioned * {
+    color: #ffffff !important;
+}
 
 /*!*friends grid banner colour*!*/
 /*.theme-dark {*/
